@@ -1,0 +1,87 @@
+html {
+    font-size: 22px;
+
+  }
+
+  img {
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 160px;
+    width: 160px;
+  }
+
+  .first-heading {
+    text-align: center;
+    border-inline-end-width: 400px;
+  }
+
+  .assignment1 {
+    background-color: rgb(74, 162, 11);
+    color: #333;
+    width: 300px;
+    border-style: dashed;
+    font-size: medium;
+    margin-top: 60px;
+    text-align: center;
+    
+    
+  }
+
+  .subscribe-botton {
+background-color: rgb(200, 45, 45);
+color: white;
+width: 105px;
+height: 36px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+margin-right: 15px;
+
+}
+
+.join-botton {
+background-color: white;
+color: rgb(52, 104, 207);
+width: 65px;
+height: 35px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(52, 104, 207);
+border-radius: 30;
+cursor: pointer;
+
+
+}
+
+.tweet-botton {
+background-color: rgb(2, 158, 255);
+color: white;
+width: 74px;
+height: 36px;
+border-radius: 18px;
+font-weight: bold;
+font-size: 15px;
+border: none;
+cursor: pointer;
+margin-left: 11px;
+}
+table, th, td {
+  table-layout: fixed;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: px;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+caption {
+  font-weight:bolder;
+  border: 2px solid black;
+}

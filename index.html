@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Timothy Olanihun">
+    <meta name="description" content="This page contains everything I am learning about HTML">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" href="images/timimage.jpg" type="owners image">
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+  <header>
+  <div class="author-image">
+    <img src="images/timimage.jpg" alt="author-image" width="160px" height="160px" >
+<article id="top">
+  <H1>Timothy Olanihun</H1>
+<nav aria-label="primary-navigation">
+  <ul>
+    <li>
+      <a href="#avoid">Avoid</a>
+      <li>
+        <a href="#visit">Places to visit</a>
+      </li>
+    </li>
+  </ul>
+</nav>
+</header>
+<hr>
+<main>
+</article>
+
+  <article>
+      <h2>This is my first webpage and I am excited getting started</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum adipisci animi atque, ut sapiente veritatis blanditiis debitis esse, saepe quis dicta culpa veniam velit corporis. Laboriosam consequatur soluta libero sunt.</p> 
+      <h3>My Daily Schedule</h3>
+      <p>Let me tell you how</p>
+  </article>
+        <ol>
+        <li>.... I am leaning new stuff about development</li>
+        <li>.... I can not stop now</li>
+        <figure>
+          <figcaption>An example of HTML code</figcaption>
+          <p>
+            <code>&lt;h1&gt;Hello Word!&lt;/h1&gt;</code>
+          </p>
+        </figure>
+        <li>.... Den never see me coming.</li>
+        <li>.... I use rsources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/"></a>MDN</abbr></li>
+      </ol>
+      <aside>
+        <details>
+          <summary>
+            Guess the <mark>number of hours</mark> I code per day</summary>
+            <p>I start at<time datetime="08:00"> 8am </time> and I write code for <time datetime="GMT3H"> 3 hours</time> every morning </p>
+        </details>
+      </aside>
+      <br>
+      <!-- THE TABLE STARTED HERE -->
+      <table>
+        <caption>My daily Schedule</caption>
+        <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th scope="col">Time</th>
+          <th scope="col">Activity</th>
+        </tr>
+      </thead>
+
+      <!-- THE TABLE BODY STARTED HERE -->
+      <tbody>
+        <tr>
+          <th scope="row">Morning</th>
+          <td>
+            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+          </td>
+          <td>Write code</td>
+        </tr>
+        <tr>
+          <th scope="row">Break</th>
+          <td>
+            <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+          </td>
+          <td>Lunch Time</td>
+        </tr>
+        <tr>
+          <th scope="row">Afternoon</th>
+          <td>
+            <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+          </td>
+          <td>Study for other courses</td>
+        </tr>
+        <tr>
+          <th scope="row">Evening
+          </th>
+          <td rowspan="2">All other time</td>
+          <td>Free time</td>
+        </tr>
+        <th scope="row">Night</th>
+          <td>Sleep</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">And that is what I do everyday, 5 day a week. Just eat, sleep, code... and recharghe</td>
+        </tr>
+      </tfoot>
+      </table>
+      <hr>
+      <section id="visit">
+      
+
+      <H3>Places I'd like to visit</H3>
+      <ul>
+        <li> I will like to visit </li>
+        <img src="images/Hp image.jpg" alt="Hp logo" loading="lazy">
+        <li>I have heard a good thing<em> about Caribean</em></li>
+        <img src="images/brain.jpg" alt=" Image of human Brain" width="80px" height="100px" loading="lazy">
+
+        <!--Address semantic is attached here-->
+        <figure>
+        <li>I have heard good thing about going to here:
+          <address>3 Omorinre Street Lekki Phase 1 Lagos</address><img src="images/timimage.jpg" alt="swifteem"></li>
+          <figcaption>This is Timothys Image</figcaption>
+        </figure>
+          <figure>
+          <img src="images/Quantum computer.jpg" alt="Quantum computer" loading="lazy"> 
+        <figcaption>A Quantum computer</figcaption></figure>
+      </ul>
+    </section>
+      <hr>
+      <section id="avoid">
+      <H3>Places I want to avoid</H3>
+      <dl>
+        <dt>The North Poles</dt>
+        <dd>I hear this is <strong>cold !</strong></dd>
+        <dt>The South Pole</dt>
+        <dd>This is also <strong>Cold !</strong></dd>
+        <dt></dt>
+        <dt>Mountain Tops</dt>
+        <dd>These are also <strong>Cold !</strong></dd>
+      </dl>
+    </section>
+    <hr>
+    <article id="Contact">
+      <h2>Contact me</h2>
+      <p>I'd really like to hear from you!</p>
+
+      <form action="htts://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Personal Info</legend>
+    <p>
+        <label for="firstName">First Name</label>
+        <input type="text" name="FirstName" id="firstName" placeholder="Timothy" autocomplete="on" required >
+    </p>
+
+    <p>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Olanihun" autocomplete="on" required>
+    </p>
+    <p>
+        <label for="lastName">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Password" autocomplete="on" required>
+    </p>
+    <p>
+        <label for="Phone">Phone</label>
+        <input type="tel" name="Phone" id="Phone" placeholder="234-8060-884-889" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}-[0-9]{3}">
+    </p>
+    <p>
+        <label for="decade">Decade</label>
+        <input type="number" name="decade" id="decade" min="1914" max="2024" step="10" value="2024">
+    </p>
+    <p>
+      <label for="coffee">Favourite Coffee:</label>
+      <select name="coffee" id="coffee" multiple size="5 ">
+        <optgroup label="coffees">
+        <option value="regular coffee">Regular Coffee</option>
+        <option value="iced coffee">Iced Coffee</option>
+      </optgroup>
+      <optgroup label="Espresso Drinks">
+        <option value="Latte" selected>Latte</option> 
+        <option value="cappuccino">Cappuccino</option>
+        <option value="cortado">Cortado</option>
+        <option value="americano">Americano</option>
+        <option value="others">Others</option>
+      </optgroup>
+
+           </select>
+    </p>
+    <!-- <p>
+      <label for="coffee">Favourite Coffee</label>
+      <input type="text" name="coffee" id="coffee" list="coffee-list">
+        <datalist id="coffee-list">
+          <option value="coffee">
+          <option value="latte">
+          <option value="espresso">
+          <option value="cortado">
+          <option value="americano">
+          <option value="other">
+        </datalist>
+       </p> -->
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>What is your favourite food</legend>
+    <p>
+      <input type="radio" name="food" id="tacos">
+      <label for="tacos">Tacos</label>
+    </p>
+    <p>
+      <input type="radio" name="food" id="pizza">
+      <label for="pizza">Pizza</label>
+    </p>
+    <p>
+      <input type="radio" name="food" id="rice">
+      <label for="rice">Rice</label>
+    </p>
+    <p>
+      <input type="radio" name="food" id="other">
+      <label for="others">Others</label>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Do you have pets</legend>
+    <p>
+      <input type="checkbox" name="pets" id="dog" value="dog">
+      <label for="dog">Dog</label>
+    </p>
+    <p>
+      <input type="checkbox" name="pets" id="cat" value="cat">
+      <label for="cat">Cat</label>
+    </p>
+    <p>
+      <input type="checkbox" name="pets" id="parrot" value="parrot">
+      <label for="parrot">parrot</label>
+    </p>
+    <p>
+      <input type="checkbox" name="pets" id="other" value="other">
+      <label for="other">Other</label>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    
+    <legend>Send me a note</legend>
+    <label for="message">Your Message:</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+  </fieldset>
+  <br>
+    <button type="submit">Submit</button>
+    <button type="submit" formaction="https://httbin.org/post" formmethod="post" >post</button>
+    <button type="reset">reset</button>
+    
+      </form>
+
+    </article>
+  </main>
+
+  <footer>
+    
+    <p>
+      A note for self <br>
+      To get a placeholder images- visit placeholder.com <br>
+      To download images u have the usage rigt to use visit unsplash.com or pixels.com, gratiosgraphy, pixalbay, irfanview.com to edit images
+      canva.com is a paid sub to use 
+           <br>
+        Drag and drop your images into tiny png.com to compress ur images, it load your page faster,
+      </p>
+      <br>
+      <br>
+      <p>
+        &lt;&lt;&lt;&copy; <a href="about.html">Timothy Olanihun</a> &gt;&gt;&gt;
+      </p>
+  </footer>
+    
+    
+      <hr>
+
+    <button class="subscribe-botton">SUBSCRIBE</button>
+    
+  <button class="join-botton">JOIN</button>
+  
+  <button class="tweet-botton">TWEET</button>
+  <hr>
+
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+
+   </body>
+</html>
